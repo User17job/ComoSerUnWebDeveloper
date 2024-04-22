@@ -80,12 +80,14 @@ text-decoration: underline;
     border: solid 1px white;
     position: fixed;
     top:70px;
+    left: -900px;
     font-size: 30px;
     width: 400px;
     height: 89vh;
     z-index: 2;
     overflow-y: scroll;
     transition: 1s;
+    
 }
 #navbar::-webkit-scrollbar{
     background-color: transparent;
@@ -106,11 +108,9 @@ text-decoration: underline;
 }
 #url1>div{
     background-image: linear-gradient(0deg, rgb(100, 170, 90) 0%, #042e52 100%);
-    /* font-size: 40px; */
 }
 #url1>div:hover{
     background-image: linear-gradient(180deg, rgb(100, 170, 90) 0%, #042e52 100%);
-
 }
 #url{
     background-color:#0b3d69;
@@ -118,8 +118,7 @@ text-decoration: underline;
     color: aliceblue;
 }
 #navbar>a>div:hover{
-    background-color: rgba(64, 125, 125, 0.685);
-    
+    background-color: rgba(64, 125, 125, 0.685); 
 }
 
 main{
@@ -285,7 +284,7 @@ h3{
         margin-bottom: 30px;
     }
     #navbar{
-        top:-0px;
+        top:0px;
         width: 300px;
         height: 100vh;
         z-index: 2;
@@ -348,6 +347,5 @@ h3{
         background-color: blue;
     }100%{
         background-color: aqua;
-    }
-    
+    }   
 }
